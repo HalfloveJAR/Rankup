@@ -11,7 +11,7 @@ import us.halflove.rankup.misc.LevelPerks
 *
 * @author Halflove
 *
-* https://Halflove.us
+* http://Halflove.us
 * https://github.com/HalfloveJAR
 *
 */

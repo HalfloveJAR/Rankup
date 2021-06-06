@@ -8,7 +8,7 @@ import org.bukkit.inventory.Inventory
 *
 * @author Halflove
 *
-* https://Halflove.us
+* http://Halflove.us
 * https://github.com/HalfloveJAR
 *
 */

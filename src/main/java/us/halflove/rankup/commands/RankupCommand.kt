@@ -10,7 +10,7 @@ import us.halflove.rankup.gui.RankupMenu
 *
 * @author Halflove
 *
-* https://Halflove.us
+* http://Halflove.us
 * https://github.com/HalfloveJAR
 *
 */

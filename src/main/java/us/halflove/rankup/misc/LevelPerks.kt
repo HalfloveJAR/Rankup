@@ -4,7 +4,7 @@ package us.halflove.rankup.misc
 *
 * @author Halflove
 *
-* https://Halflove.us
+* http://Halflove.us
 * https://github.com/HalfloveJAR
 *
 */
