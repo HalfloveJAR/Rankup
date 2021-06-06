@@ -1,0 +1,12 @@
+name: Rankup
+version: ${project.version}
+main: us.halflove.rankup.Main
+api-version: 1.16
+depend: [ Vault ]
+authors: [ Halflove ]
+description: ${project.description}
+
+commands:
+  rankup:
+    usage: /rankup
+    aliases: [/ranks, /rank]
