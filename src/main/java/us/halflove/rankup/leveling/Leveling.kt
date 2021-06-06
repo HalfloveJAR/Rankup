@@ -9,6 +9,7 @@ import us.halflove.rankup.gui.RankupMenu
 import us.halflove.rankup.misc.LevelPerks
 import us.halflove.rankup.misc.LevelPrices
 import us.halflove.rankup.storage.StorageFile
+import kotlin.math.roundToInt
 
 /*
 *
@@ -23,7 +24,7 @@ object Leveling {
 
     fun attemptRankUp(player: Player, level: Int){
 
-        val currentBal = Main.econ.getBalance(player)
+        val currentBal = Main.econ.getBalance(player).roundToInt()
         val levelPrice = (LevelPrices.values().getOrNull(level - 1) ?: LevelPrices.LEVEL_OTHER).price
         if(currentBal >= levelPrice){
             Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6&l${player.name} has reached level ${level}!"))

@@ -3,6 +3,7 @@ version: ${project.version}
 main: us.halflove.rankup.Main
 api-version: 1.16
 depend: [ Vault ]
+softdepend: [ PlaceholderAPI ]
 authors: [ Halflove ]
 description: ${project.description}
 

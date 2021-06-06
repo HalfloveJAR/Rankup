@@ -32,7 +32,7 @@ class ClickEvent : Listener {
                 if(event.currentItem != null) {
                     if (event.currentItem!! == Entries.getLevelItem(level, player)) {
                         val levelMinusOne: Int = level - 1
-                        if (player.hasPermission("level.$levelMinusOne")) {
+                        if (player.hasPermission("level.$levelMinusOne") && !player.hasPermission("level.$level")) {
                             Leveling.attemptRankUp(player, level)
                         } else {
                             player.location.world!!.playSound(player.location, Sound.BLOCK_NOTE_BLOCK_SNARE, 1f, 2f)

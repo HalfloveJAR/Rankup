@@ -1,5 +1,6 @@
 package us.halflove.rankup
 
+import me.clip.placeholderapi.PlaceholderAPI
 import net.milkbowl.vault.economy.Economy
 import net.milkbowl.vault.permission.Permission
 import org.bukkit.Bukkit
